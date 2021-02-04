@@ -1,3 +1,11 @@
 
-*/__pycache__/*
-*/*.pyc
+python/*/__pycache__/*
+python/*/*.pyc
+cs/1/bin/
+cs/1/obj
+cs/1a/bin/
+cs/1a/obj
+cs/2/bin/
+cs/2/obj
+cs/2a/bin/
+cs/2a/obj

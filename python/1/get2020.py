@@ -18,6 +18,7 @@ import pathlib
 filename = os.path.join(pathlib.Path(__file__).parent.absolute(),"input.txt")
 values = list()
 with open(filename) as file:
+    
     for line in file:
         values.append(int(line))
 values = sorted(values)
