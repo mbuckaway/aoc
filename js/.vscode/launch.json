@@ -1,0 +1,48 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch 1",
+            "program": "${workspaceFolder}/1/get2000.js",
+            "args": ["-f", "${workspaceFolder}/1/input.txt"],
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        {
+            "name": "Launch 1a",
+            "program": "${workspaceFolder}/1a/get2020.js",
+            "args": ["-f", "${workspaceFolder}/1a/input.txt"],
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        {
+            "name": "Launch 2",
+            "program": "${workspaceFolder}/2/getpasswd.js",
+            "args": ["-f", "${workspaceFolder}/2/input.txt"],
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        {
+            "name": "Launch 2a",
+            "program": "${workspaceFolder}/2a/getpasswd.js",
+            "args": ["-f", "${workspaceFolder}/2a/input.txt"],
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+    ]
+}
